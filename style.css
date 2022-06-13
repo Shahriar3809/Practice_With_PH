@@ -1,0 +1,64 @@
+nav > ul {
+    
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 20px;
+    padding: 0 10px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav li:hover {
+    background-color: lightgray;
+}
+
+
+.dropdown {
+    display: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+nav > ul > li:hover > ul {
+    display: block;
+}
+
+
+.dropdown li {
+    background-color: bisque;
+    margin: 0;
+    padding: 7px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+table {
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid black;
+    padding: 5px 10px;
+   
+}
